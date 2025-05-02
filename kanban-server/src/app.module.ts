@@ -4,7 +4,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost/kanban'),
+    MongooseModule.forRoot('mongodb://localhost:27017/kanban'),
     // otros módulos...
   ],
 })
